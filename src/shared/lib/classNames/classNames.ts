@@ -2,12 +2,12 @@ export type ModsType = Record<string, boolean | string>
 
 export const classNames = (
   cls: string,
-  additional: string[],
-  mods?: ModsType
+  mods?: ModsType,
+  additional?: string[]
 ): string => {
   return [
     cls,
-    ...additional,
+    ...additional.filter(Boolean),
     ...Object.entries(mods)
       .filter(([className, classValue]) => Boolean(classValue))
       .map(([className]) => className),
