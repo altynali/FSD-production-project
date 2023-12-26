@@ -1,7 +1,5 @@
-import { AboutPageLazy } from "pages/AboutPage/ui/AboutPage.lazy"
-import { MainPageLazy } from "pages/MainPage/ui/MainPage.lazy"
 import { Suspense } from "react"
-import { Routes, Route } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import { routeConfig } from "shared/config/routeConfig/routeConfig"
 
 const AppRouter = () => {
