@@ -2,5 +2,7 @@
   "test": "Тест",
   "mainPage": "Главная страница",
   "translate": "Перевод",
-  "languege": "Russian"
+  "languege": "Russian",
+  "toggle": "Поменять",
+  "loading": "Loading..."
 }

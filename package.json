@@ -8,6 +8,8 @@
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development",
     "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\"",
+    "lint:ts": "eslint \"**/*.{ts,tsx}\"",
+    "lint:ts:fix": "eslint \"**/*.{ts,tsx}\" --fix",
     "lint:scss": "yarn stylelint \"**/*.scss\"",
     "lint:scss:fix": "yarn stylelint \"**/*.scss\" --fix"
   },

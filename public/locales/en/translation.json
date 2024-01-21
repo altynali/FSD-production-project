@@ -2,5 +2,7 @@
   "test": "Test",
   "mainPage": "Main page",
   "translate": "Translate",
-  "languege": "English"
+  "languege": "English",
+  "toggle": "Toggle",
+  "loading": "Loading..."
 }
