@@ -1,10 +1,10 @@
-import React, { ButtonHTMLAttributes, FC } from "react"
-import classes from "./Button.module.scss"
-import { classNames } from "shared/lib/classNames/classNames"
-import { Link, LinkProps } from "react-router-dom"
+import React, { ButtonHTMLAttributes, FC } from 'react'
+import classes from './Button.module.scss'
+import { classNames } from 'shared/lib/classNames/classNames'
+import { Link, LinkProps } from 'react-router-dom'
 
 export enum ButtonTheme {
-  CLEAR = "clear",
+  CLEAR = 'clear',
 }
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {

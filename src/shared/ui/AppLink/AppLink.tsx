@@ -1,11 +1,11 @@
-import React, { FC } from "react"
-import classes from "./AppLink.module.scss"
-import { classNames } from "shared/lib/classNames/classNames"
-import { Link, LinkProps } from "react-router-dom"
+import React, { FC } from 'react'
+import classes from './AppLink.module.scss'
+import { classNames } from 'shared/lib/classNames/classNames'
+import { Link, LinkProps } from 'react-router-dom'
 
 export enum AppLinkTheme {
-  PRIMARY = "primary",
-  SECONDARY = "secondary",
+  PRIMARY = 'primary',
+  SECONDARY = 'secondary',
 }
 
 export interface AppLinkProps extends LinkProps {

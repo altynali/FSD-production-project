@@ -1,7 +1,7 @@
-import { classNames } from "shared/lib/classNames/classNames"
-import classes from "./Navbar.module.scss"
-import { FC } from "react"
-import AppLink, { AppLinkTheme } from "shared/ui/AppLink/AppLink"
+import { classNames } from 'shared/lib/classNames/classNames'
+import classes from './Navbar.module.scss'
+import { FC } from 'react'
+import AppLink, { AppLinkTheme } from 'shared/ui/AppLink/AppLink'
 
 export interface NavbarProps {
   className?: string
